@@ -124,19 +124,6 @@ export default function App() {
           </motion.div>
         </section>
 
-        <section className="mx-auto max-w-6xl px-5 pb-24">
-          <motion.div {...fade} className="relative overflow-hidden border border-line bg-panel p-8 sm:p-12">
-            <div className="grid-bg absolute inset-0 opacity-50" aria-hidden />
-            <div className="relative max-w-2xl">
-              <p className="text-xs uppercase tracking-widest text-hot">{t.expT}</p>
-              <h2 className="mt-2 text-3xl font-bold text-white sm:text-5xl">{t.expName}</h2>
-              <p className="mt-4 text-zinc-300">{t.expP}</p>
-              <ul className="mt-4 grid gap-2 sm:grid-cols-2">{t.exp.map(x => <li key={x}><span className="mr-2 text-accent">▸</span>{x}</li>)}</ul>
-              <button onClick={() => { document.getElementById('portfolio')?.scrollIntoView(); setOpen(0) }} className={`${btn} mt-8 bg-white text-ink hover:bg-accent`}>{t.expBtn} →</button>
-            </div>
-          </motion.div>
-        </section>
-
         <section id="portfolio" className="mx-auto max-w-6xl px-5 py-24">
           <motion.div {...fade}><h2 className="text-4xl font-bold text-white sm:text-6xl">{t.portT}<span className="text-accent">_</span></h2><p className="mt-3 text-zinc-400">{t.portSub}</p></motion.div>
           <div className="mt-10 grid gap-4 md:grid-cols-3">
