@@ -23,7 +23,7 @@ const fr = {
   rights: 'Tous droits réservés.',
 }
 const en: typeof fr = {
-  meta: { title: 'Quentin Gautier — Freelance Game Designer & Level Designer, Paris', desc: 'Quentin Gautier, freelance game designer and level designer based in Paris: game design, level design, consulting, video editing and 2D graphics.' },
+  meta: { title: 'Romane Rullier — Freelance Game Designer & Level Designer, Paris', desc: 'Quentin Gautier, freelance game designer and level designer based in Paris: game design, level design, consulting, video editing and 2D graphics.' },
   nav: { home: 'Home', portfolio: 'Portfolio', services: 'Services', menu: 'Menu', lang: 'Switch language' },
   role: 'Freelance Game Designer & Level Designer',
   intro: 'I help bring video game ideas to life through game design, level design and creative problem-solving.',
