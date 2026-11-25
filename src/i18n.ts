@@ -12,7 +12,7 @@ const fr = {
   portT: 'Ils ont fait appel à moi', portSub: 'Quelques-uns de mes projets.', view: 'Voir le détail',
   close: 'Fermer', prev: 'Projet précédent', next: 'Projet suivant', roleL: 'Type de projet', toolsL: 'Outils', contribL: 'Contributions', linksL: 'Liens', imgL: 'Images', noLinks: 'Aucun lien pour le moment.',
   servT: 'Services', servSub: 'Je m’adapte aux besoins de votre projet.', deliv: 'Inclus',
-  ctaT: 'Racontez-moi votre projet', ctaP: 'Envie de travailler avec moi ?\nN’hésitez pas à cliquer sur le bouton ci-dessous pour me parler plus en détail de votre projet. Je vous répondrai dans les plus brefs délais. Pour avoir une estimation plus précise, pensez à indiquer les langues concernées et joignez sipossible à votre message le document que vous souhaitez que je traite.', ctaBtn: 'Contactez-moi',
+  ctaT: 'Racontez-moi votre projet', ctaP: 'Envie de travailler avec moi ?'\n,'N’hésitez pas à cliquer sur le bouton ci-dessous pour me parler plus en détail de votre projet. Je vous répondrai dans les plus brefs délais. Pour avoir une estimation plus précise, pensez à indiquer les langues concernées et joignez sipossible à votre message le document que vous souhaitez que je traite.', ctaBtn: 'Contactez-moi',
   services: [
     { t: 'Traduction', d: 'Conception de systèmes de gameplay, de mécaniques et d’expériences de jeu.', l: ['Je vérifie l’exactitude des termes employés'] },
     { t: 'Révision', d: 'Conception d’environnements lisibles, cohérents et engageants, au service du gameplay.', l: ['Documentation de level design'] },
