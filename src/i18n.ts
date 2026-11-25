@@ -17,6 +17,7 @@ const fr = {
     { t: 'Traduction', d: 'Conception de systèmes de gameplay, de mécaniques et d’expériences de jeu.', l: ['Je vérifie l’exactitude des termes employés'] },
     { t: 'Révision', d: 'Conception d’environnements lisibles, cohérents et engageants, au service du gameplay.', l: ['Documentation de level design'] },
     { t: 'Relecture', d: 'Accompagnement et retours pour améliorer des projets, concepts et expériences existants.', l: ['Conseils orientés production'] },
+    ],
   rights: 'Tous droits réservés.',
 }
 const en: typeof fr = {
