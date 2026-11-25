@@ -162,7 +162,7 @@ export default function App() {
 
       <footer id="contact" className="border-t border-line bg-panel px-5 py-12">
         <div className="mx-auto flex max-w-6xl flex-col gap-8 md:flex-row md:justify-between">
-          <div><p className="font-display text-2xl font-bold text-white">Quentin Gautier<span className="text-accent">.</span></p><p className="mt-1 text-zinc-400">{t.role}</p><p className="mt-1 text-zinc-500">📍 {contact.location}</p></div>
+          <div><p className="font-display text-2xl font-bold text-white">Romane Rullier<span className="text-accent">.</span></p><p className="mt-1 text-zinc-400">{t.role}</p><p className="mt-1 text-zinc-500">📍 {contact.location}</p></div>
           <ul className="space-y-2">
             <li><a className="text-accent underline-offset-4 hover:underline" href={`mailto:${contact.email}`}>{contact.email}</a></li>
             <li><a className="hover:text-accent" href={contact.linkedin} target="_blank" rel="noopener noreferrer">LinkedIn ↗</a></li>
