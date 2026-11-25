@@ -106,7 +106,7 @@ export default function App() {
           <div className="absolute -right-40 top-1/4 h-96 w-96 rounded-full bg-accent/10 blur-[120px]" aria-hidden />
           <div className="relative mx-auto w-full max-w-6xl">
             <p className="mb-4 font-display text-sm uppercase tracking-[0.3em] text-accent">▸ Paris · FR / EN</p>
-            <motion.h1 initial={{ opacity: 0, y: 30 }} animate={{ opacity: 1, y: 0 }} className="text-6xl font-bold leading-[0.95] text-white sm:text-8xl lg:text-9xl">Quentin<br />Gautier<span className="text-hot">.</span></motion.h1>
+            <motion.h1 initial={{ opacity: 0, y: 30 }} animate={{ opacity: 1, y: 0 }} className="text-6xl font-bold leading-[0.95] text-white sm:text-8xl lg:text-9xl">Romane<br />Rullier<span className="text-hot">.</span></motion.h1>
             <p className="mt-6 font-display text-xl text-zinc-100 sm:text-3xl">{t.role}</p>
             <p className="mt-4 max-w-xl text-lg text-zinc-400">{t.intro}</p>
             <div className="mt-8 flex flex-wrap gap-4">
