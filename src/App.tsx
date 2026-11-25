@@ -169,7 +169,7 @@ export default function App() {
             <li><a className="hover:text-accent" href={contact.itch} target="_blank" rel="noopener noreferrer">itch.io ↗</a></li>
           </ul>
         </div>
-        <p className="mx-auto mt-10 max-w-6xl text-xs text-zinc-500">© {new Date().getFullYear()} Quentin Gautier. {t.rights}</p>
+        <p className="mx-auto mt-10 max-w-6xl text-xs text-zinc-500">© {new Date().getFullYear()} Romane Rullier. {t.rights}</p>
       </footer>
 
       <AnimatePresence>{open !== null && <Modal key="m" p={projects[open]} lang={lang} onClose={() => setOpen(null)} onNav={nav} />}</AnimatePresence>
