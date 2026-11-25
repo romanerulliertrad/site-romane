@@ -14,7 +14,7 @@ const fr = {
   servT: 'Services', servSub: 'Je m’adapte aux besoins de votre projet.', deliv: 'Inclus',
   ctaT: 'Racontez-moi votre projet', ctaP: 'Envie de travailler avec moi ? N’hésitez pas à cliquer sur le bouton ci-dessous pour me parler plus en détail de votre projet. Je vous répondrai dans les plus brefs délais. Pour avoir une estimation plus précise, pensez à indiquer les langues concernées et joignez sipossible à votre message le document que vous souhaitez que je traite.', ctaBtn: 'Contactez-moi',
   services: [
-    { t: 'Traduction', d: 'Conception de systèmes de gameplay, de mécaniques et d’expériences de jeu.', l: ['Systèmes de progression et de récompense'] },
+    { t: 'Traduction', d: 'Conception de systèmes de gameplay, de mécaniques et d’expériences de jeu.', l: ['Je vérifie l’exactitude des termes employés'] },
     { t: 'Révision', d: 'Conception d’environnements lisibles, cohérents et engageants, au service du gameplay.', l: ['Documentation de level design'] },
     { t: 'Relecture', d: 'Accompagnement et retours pour améliorer des projets, concepts et expériences existants.', l: ['Conseils orientés production'] },
   rights: 'Tous droits réservés.',
